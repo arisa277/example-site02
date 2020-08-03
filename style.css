@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-area{
+    width: 100%;
+    background-image: url(./img/download-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.logo-area{
+    background-image: url(./img/download-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 30%;
+    width: 133px;
+    height: 133px;
+}
+
+.logo-letter {
+    width: 200px;
+    height: 133px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo-letter h4{
+    font-size: 16px;
+    color: white;
+}
+
+.app-box {
+    text-align: center;
+    width: 100%;
+}
+
+.app-box img{
+    width: 120px;
+}
+
+.main-note {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-note p{
+    color: white;
+
+}
+
+
+/* three column area */
+
+.three-column-area{
+    display: flex;
+    height: 100vh;
+}
+
+.column-list1 {
+    width: 33.33%;
+    background-image: url(./img/download-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+.column-list2{
+    width: 33.33%;
+    background-image: url(./img/download-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+.column-list3{
+    width: 33.33%;
+    background-image: url(./img/download-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.lists{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.three-column-area h2{
+    color: white;
+    font-size: 24px;
+    padding-top: 50px;
+    margin: 0 auto;    
+    line-height: 1.6em;
+}
+
+.three-column-area p{
+    letter-spacing: 0.2em;
+    padding-top: 30px;
+    color: white;
+    font-size: 14px;
+    
+}
+
+
+/* 2 column area*/
+
+.two-column {
+    height: 100%;
+    background-color: lightgrey;
+}
+
+.price-area{
+    padding-top: 40px;
+    text-align: center; 
+} 
+
+.baloon p {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 auto;
+    width: 30%;
+    color: white;
+    background-color: #ff8400;
+    border-radius: 10%;
+}
+
+.bouquet {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.price-area h2{
+    font-size: 18px;
+    line-height: 2em;
+
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+}
+
+.calender-area {
+    height: 100%;
+    background: white;
+    text-align: center;
+}
+
+.calender-area h2 {
+    padding-top: 200px;
+    font-size: 18px;
+    line-height: 2em;
+}
+.calender-img{
+    width: 50%;
+}
+
+/* item area */
+.item-area {
+    background: #E9D5DC;
+    display: flex;
+    
+}
+
+.item-box {
+    color: rgb(106, 103, 103);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.item-img {
+    background-image: url(./img/download-1.jpg);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 730px;
+}
+
+.kinds-title {
+    text-align: center;
+    margin: 100px;
+    color: rgb(70, 68, 68);
+}
+
+.item-title{
+    font-size: 24px;
+    margin: 30px;
+    text-align: center;
+}
+
+ /* vase area */
+.vase-area {
+    height: 100%;
+    background: #E7E3DE;
+    background-image: url(./img/download-7.jpg);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.vase-box{
+    margin-left: 100px;
+    max-width: 500px;
+    
+}
+.vase-title{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.vase-title h2{
+    font-size: 24px;
+    color: rgb(48, 47, 47);
+}
+
+.vase-title p{
+    margin: 20px auto;
+    width:50%;    
+    background: white;
+}
+.vase-discription {
+    padding: 30px;
+}
+
+.three-vases {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.three-vases img {
+    width: 50%;
+}
+
+.order {
+    display: flex;
+}
+.order-box {
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+}
+.app-dis{
+    text-align: center;
+}
+
+/* flower-life-area */
+.flower-life-area {
+    height: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.flower-title{
+    font-size: 26px;
+    margin: 30px;
+}
+
+.row img{
+    margin: 20px;
+    width: 50%;
+}
+
+.col-md-4 h3{
+    font-size: 20px;
+}
+
+.col-md-4 p{
+    font-size: 14px;
+}
+
+/* phone-area */
+.phone-area {
+    background-color: #EFDFC5;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    background-image: url(./img/download.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.phone {
+    text-align: right;
+    margin-top: 50px;
+    padding-right: 200px;
+}
+.footer-logo-area img{
+    width: 130px;
+}
+
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 50vh;
+    background: #3f434a;
+    
+}
+.menu{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.menu img {
+    width: 50px;
+}
+
+.copyright {
+    padding-top: 150px;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+/* media quiry */
+
+@media screen and (max-width:780px){
+    .menu {
+        display: block;
+        width: 100%;
+    }
+    .footer a{
+        width: 100%;
+        display: block;
+    }
+    .three-column-area{
+        display: block;
+        height: 100%;
+    }
+    .column-list1, .column-list2, .column-list3{
+        width: 100%;
+        height: 100vh;
+    }
+}
